@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>poonam chhatri| Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <span class="dot"></span> Portfolio
+  </div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <div class="menu-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Hey, I am <br><span>POONAM CHHATRI</span></h1>
+    <h2> <span class="highlight">I.C.T Lab Computer Instructor</span></h2>
+
+    <p>
+     A dedicated Computer Instructor working in the ICT Lab at Haveli School, Bamhni Banjar, with experience teaching Grade 2 students and supporting digital learning in the classroom.
+    </p>
+
+    <div class="buttons">
+      <a href="#" class="btn primary">Check Resume</a>
+      
+      <a href="" class="btn outline">GitHub</a>
+    </div>
+    
+  </div>
+
+  <div class="hero-image">
+    <div class="ring"></div>
+    <img src="poonamimg.jpg" alt="Profile"/>
+  </div>
+</section>
+
+
+<section class="skills-section" id="skills">
+  <h2 class="section-title">Skills</h2>
+  <p class="section-subtitle">
+    Here are some of my technical skills and areas of expertise.
+  </p>
+
+  <div class="skills-grid">
+
+    <!-- Backend -->
+    <div class="skill-card">
+       <h3>Frontend</h3>
+      <div class="tags">
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>Material UI</span>
+        <span>Angular</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Backend</h3>
+      <div class="tags">
+        <span>Spring Framework</span>
+        <span>Microservices</span>
+        <span>MySQL</span>
+        <span>Apache Kafka</span>
+        <span>Hibernate</span>
+        <span>Apache Camel</span>
+        <span>MongoDB</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="education">
+  <h2 class="edu-title">Education</h2>
+
+  <div class="edu-timeline">
+
+    <div class="edu-item left">
+      <div class="content">
+        <h3>10th Standard</h3>
+        <h5>Adarsh (Sanyal) Hin.Eng. School Mandla</h5>
+        <p>State Board</p>
+        <h5>SCORE:84.8 % A+</h5>
+
+      </div>
+    </div>
+
+    <div class="edu-item right">
+      <div class="content">
+        <h3>12th Standard</h3>
+        <h5>Saraswati sishu mandir/Higher Secondary School</h5>
+        <p>State Board</p>
+        <p>Science (PCS)</p>
+        <h5>SCORE:80.22 % A+</h5>
+      </div>
+    </div>
+
+     <div class="edu-item left">
+      <div class="content">
+        <h3>Graduation</h3>
+        <h5> MAKHANLAL CHATURVEDI NATIONAL UNIVERSITY OF JOURNALISM AND COMMUNICATION BHOPAL </h5>
+        <h3>B.C.A</h3>
+        <h5>GRADE: 73.92%</h5>
+      </div>
+    </div>
+
+    <div class="edu-item left">
+      <div class="content">
+        <h3>Graduation</h3>
+        <h5> MAKHANLAL CHATURVEDI NATIONAL UNIVERSITY OF JOURNALISM AND COMMUNICATION BHOPAL </h5>
+        <h3>M.SC(C.S)</h3>
+        <h5>GRADE:77.03 % </h5>
+      </div>
+    </div>
+
+  </div>
+
+
+<script>
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
